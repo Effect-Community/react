@@ -4,7 +4,7 @@
   "license": "MIT",
   "repository": "https://github.com/Effect-TS/react.git",
   "homepage": "https://www.matechs.com",
-  "private": true,
+  "private": false,
   "scripts": {
     "clean": "rimraf build tsbuildinfo",
     "build:lib": "ttsc --build  tsconfig.build.json && build-utils package",
