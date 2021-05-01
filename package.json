@@ -35,7 +35,7 @@
     "@effect-ts/build-utils": "^0.17.3",
     "@effect-ts/core": "^0.37.3",
     "@effect-ts/query": "^0.18.2",
-    "@effect-ts/schema": "^0.1.13",
+    "@effect-ts/schema": "^0.1.14",
     "@effect-ts/tracing-plugin": "^0.10.1",
     "@types/cpx": "^1.5.1",
     "@types/glob": "^7.1.3",
