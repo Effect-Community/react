@@ -32,6 +32,11 @@
     "react": "^17.0.2"
   },
   "config": {
-    "modules": []
+    "modules": [
+      "DataSource",
+      "Env",
+      "Hub",
+      "Query"
+    ]
   }
 }

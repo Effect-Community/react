@@ -29,7 +29,8 @@
     "noImplicitThis": true,
     "strictNullChecks": true,
     "baseUrl": ".",
-    "target": "ES2018"
+    "target": "ES2018",
+    "jsx": "react"
   },
   "exclude": ["node_modules", "build", "lib"]
 }
