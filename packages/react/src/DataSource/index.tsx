@@ -85,7 +85,7 @@ export function ticked<R, A extends Req.Request<any, any>>(ds: DS.DataSource<R, 
   return new Ticked(ds)
 }
 
-export function Provider<R extends T.DefaultEnv>({
+export function DataSourceProvider<R extends T.DefaultEnv>({
   children,
   env,
   sources
