@@ -55,6 +55,7 @@ export function makeApp<R extends T.DefaultEnv>() {
   return {
     Provide,
     useQuery,
-    useProvider
+    useProvider,
+    env
   }
 }
