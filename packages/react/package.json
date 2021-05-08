@@ -26,11 +26,11 @@
   },
   "sideEffects": false,
   "peerDependencies": {
-    "@effect-ts/core": "^0.37.3",
-    "@effect-ts/query": "^0.18.2",
-    "@effect-ts/schema": "^0.1.14",
+    "@effect-ts/core": "^0.37.7",
+    "@effect-ts/query": "^0.18.4",
+    "@effect-ts/schema": "^0.1.17",
     "fast-check": ">= 2.14.0",
-    "react": "^17.0.2"
+    "react": ">= 17.0.2"
   },
   "config": {
     "modules": [
