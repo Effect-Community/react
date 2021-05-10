@@ -15,11 +15,12 @@ import * as React from "react"
 import type { ReactEnv } from "../Env"
 
 export class Ticked<R, A extends Req.Request<any, any>> extends DS.DataSource<R, A> {
-  private queue = Queue.unsafeMakeUnbounded<
-    Tp.Tuple<
-      [Chunk.Chunk<Chunk.Chunk<A>>, Prom.Promise<never, CRM.CompletedRequestMap>]
-    >
-  >()
+  private queue =
+    Queue.unsafeMakeUnbounded<
+      Tp.Tuple<
+        [Chunk.Chunk<Chunk.Chunk<A>>, Prom.Promise<never, CRM.CompletedRequestMap>]
+      >
+    >()
 
   constructor(readonly ds: DS.DataSource<R, A>) {
     super(`Ticked(${ds.identifier})`, (requests: Chunk.Chunk<Chunk.Chunk<A>>) => {
