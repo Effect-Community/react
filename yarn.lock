@@ -379,9 +379,9 @@
   integrity sha512-DCf0FBAia1PUXxZweJ9WUfWWk99SNiRIB9fCl9/H96cRx9QlGx19BPZ/1TgiDzNPn136+UxDnU2KLf79NUK8gQ==
 
 "@effect-ts/schema@^0.8.0":
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/@effect-ts/schema/-/schema-0.8.0.tgz#a65a6bc4c845db69a708975180adb5d7483abe15"
-  integrity sha512-xQAAjnwgewHamYB290vk/DQCyq7vd5LRZGTUJ8mHqGhz9T0J4wmM/GO8O/DCyR/woFiAUrI82gO+hezp6EPmSw==
+  version "0.8.1"
+  resolved "https://registry.yarnpkg.com/@effect-ts/schema/-/schema-0.8.1.tgz#ef121e94be9b424db9e2c97b607c69453492f5cc"
+  integrity sha512-KYbc/hMulDgrjliWZDAYOIqsExRrRwSGQFChwPrYQjGwxYbnr+o+8P5TalhmGyw6BN5iUu5ndDb35slWPiTriA==
   dependencies:
     "@effect-ts/core" "^0.40.0"
 
