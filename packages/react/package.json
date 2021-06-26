@@ -26,9 +26,9 @@
   },
   "sideEffects": false,
   "peerDependencies": {
-    "@effect-ts/core": "^0.40.0",
-    "@effect-ts/query": "^0.21.0",
-    "@effect-ts/schema": "^0.8.0",
+    "@effect-ts/core": "^0.40.8",
+    "@effect-ts/query": "^0.21.2",
+    "@effect-ts/schema": "^0.8.4",
     "fast-check": ">= 2.14.0",
     "react": ">= 17.0.2"
   },
